@@ -9,10 +9,12 @@
     <title>Digicel</title>
   </head>
   <body>
-    <header class="header">
-        <p style="background-image: url(./img/fond.jpg); background-size: 100%; ">
-        <img src="./img/logo-digicel.png" class="logo" />
-        <h1>Digicel, l'opérateur du futur</h1>
+    <header
+      class="fond"
+      style="background-image: url(./img/fond.jpg); background-size: 100%"
+    >
+      <img src="./img/logo-digicel.png" class="logo" />
+      <h1>Digicel, l'opérateur du futur</h1>
     </header>
 
     <section>
@@ -42,9 +44,13 @@
             class="mobile"
             alt="iphone 7 noir"
           />
-          <p class="marque">Apple</p>
-          <p class="modele">iphone 7</p>
-          <p class="prix">519,90€</p>
+          <div class="info">
+            <div class="infos">
+              <p class="marque">Apple</p>
+              <p class="modele">iphone 7</p>
+            </div>
+            <p class="prix">519,90€</p>
+          </div>
         </div>
         <div class="modeles">
           <h3>KEY2 LE</h3>
@@ -53,21 +59,28 @@
             class="mobile"
             alt="blackberry key2"
           />
-          <p class="marque">BlackBerry</p>
-          <p class="modele">KEY2 LE</p>
-          <p class="prix">399,90€</p>
+          <div class="info">
+            <div class="infos">
+              <p class="marque">BlackBerry</p>
+              <p class="modele">KEY2 LE</p>
+            </div>
+            <p class="prix">399,90€</p>
+          </div>
         </div>
         <div class="modeles">
           <h3>Galaxy S9</h3>
-          <!--
           <img
             src="./img/samsung-galaxy-s9.jpg"
-            class="mobile"
+            class="mobilee"
             alt="samsung galaxy s9"
-          />-->
-          <p class="marque">Samsung</p>
-          <p class="modele">Galaxy S9</p>
-          <p class="prix">859,90€</p>
+          />
+          <div class="info">
+            <div class="infos">
+              <p class="marque">Samsung</p>
+              <p class="modele">Galaxy S9</p>
+            </div>
+            <p class="prix">859,90€</p>
+          </div>
         </div>
       </section>
 
@@ -87,7 +100,7 @@
             </p>
             <a href="#" class="bouton">Découvrir les offres Let's Go</a>
           </div>
-          <div class="section2">
+          <div class="section2 blue">
             <img
               src="./img/offres-prepayees.png"
               class="image"
